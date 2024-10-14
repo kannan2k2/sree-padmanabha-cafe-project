@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+
+.section-m1{
+    margin: 40px 0;
+}
+button.normal{
+    font-size: none;
+    font-weight: 600;
+    padding: 15px 30px;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: none;
+}
+
+    /* navbarrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr */
+
+.head{
+    color: rgb(221, 150, 51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+ 
+#header{
+    
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding: 15px 25px;
+  background: #fbfcff;
+  box-shadow: 0 5px 15px rgb(207, 198, 198);
+  z-index:999;
+  position:sticky;
+  top:0;
+  left: 0;
+
+}
+.navbar{
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.navbar li{
+    list-style: none;
+    padding: 0px 20px;
+
+}
+.navbar li a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(221, 150, 51);
+    
+}
+.navbar li a:hover{
+    color: rgb(235, 201, 4);
+}
+
+/* Homeeeeeeeeeeeeeeeeeeeeeeeeee */
+
+.welcome{
+ background-image: url('image/—Pngtree—luxury mandala design png vector_5829862.png ');
+ height:90vh;
+ width: 100%;
+ background-size: cover;
+ /* background-position: top 20% right 0; */
+ padding-top: 250px;
+ /* background-color: rgb(220, 163, 18); */
+}
+.welcome h1{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(173, 117, 40);
+}
+.welcome h2{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(160, 102, 25);
+}#adds{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.addform{
+    flex-wrap: wrap;
+}
+
+.section-p1{
+    padding: 40px 80px;
+}
+.addform{
+    
+    width: 320px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 5px 5px 15px rgb(226, 218, 218);
+    cursor: pointer;
+}
+.addform :hover{
+box-shadow: 3px 3px 10px rgb(206, 178, 67);
+}
+/* allfooddddddddddddddddddddddddddddddddddddddd */
+
+#allfood{
+    text-align: center;
+    color: rgb(211, 131, 18) ;
+}
+
+.pro-condainer{
+    display: flex;
+    justify-content: space-between;
+    padding-top:20px ;
+    flex-wrap: wrap;
+    
+}
+.addpro{
+    width: 2%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 2px solid rgb(222, 220, 207);
+    border-radius: 5px;
+    cursor:pointer;
+    box-shadow:3px 3px 10px rgb(206, 178, 67) ;
+    margin: 50px 0px;
+    /* transition:0.2s ease; */
+}
+/* .addpro :hover{
+    box-shadow: 5px 5px 9px rgb(201, 214, 17);
+} */
+
+.addpro img{
+    width: 100%;
+    height:200px;
+    border-radius:2px;
+}
+.proprc{
+    text-align: start;
+    padding: 10px 0px;
+}
+.proprc span{
+    color: rgb(215, 177, 22);
+    font-size: 14px;
+   
+}
+.proprc h5{
+    padding-top: 10px;
+    color: rgb(208, 192, 46);
+    font-size: 15px;
+}
+.proprc h4{
+    padding-top: 20px;
+    color: rgb(66, 57, 57);
+}
+.star{
+    color: rgb(222, 190, 10);
+}
+
+/* all offerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr */
+.offadd{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  margin: auto;
+  width: 100%;
+  height: 40vh;
+ 
+
+}
+#alloffer{
+    display: flex;
+     background-color: rgba(228, 170, 11, 0.888);
+
+}
+#alloffer img{
+ position: absolute;
+ margin-left: 100px;
+ margin-top: 20px;
+ position: static;
+ border-radius: 10px;
+}
+.offadd h3{
+    color: white;
+}
+.offadd h2{
+    color: white;
+    padding: 16px 0px;
+}
+.offadd button:hover{
+    color: rgb(208, 192, 46);
+}
+ 
+/* newwww arrivalllllllllllllllllllllllllllllllllllllllll */
+#pro-newari h1{
+  padding: 40px;
+  font-weight: 500;
+  text-align: center;
+  color: rgb(228, 203, 41);
+  font-size: 30px; 
+}
+.arrival img{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    
+}
+.arrival{
+    width: 1px;
+    min-width: 250px;
+    border: 2px solid rgb(225, 225, 216);
+    padding: 10px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 5px 5px 6px rgb(200, 192, 192);
+    
+}
+.arrival :hover{
+    box-shadow: 5px 5px 10px rgb(225, 189, 44);
+}
+.arrival2{
+    padding: 20px;
+    text-align: center;
+    color: rgb(189, 175, 41);
+}
+.arrialtop{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+/* cafeeeeeeeeeeeee plannnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn */
+
+#cafe-plan{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.cafe h3{
+    color: rgb(221, 224, 220);
+    padding: 40px;
+
+}
+.cafe{
+    /* display: flex; */
+    font-size: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-image: url(cafe-plan/behance.jpg);
+    margin: 40px 0px;
+    min-width:580px;
+    height: 50hv;
+    height: 300px;
+    background-size: cover;
+    background-position: center; 
+    border-radius: 8px;
+    box-shadow: 5px 3px 10px rgb(221, 204, 90);
+}
+#cafe-plan .cafe2{
+    background-image: url(cafe-plan/small-commercial-kitchen-design-ergonic-flow.jpg.webp);
+}
+
+/* kitchen areaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+#pro-area{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+
+.area h4{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    
+}
+.area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    align-items: center;
+    background-image: url('cooking/Kitchen-equipment.jpg');
+    min-width: 430px;
+    height: 250px;
+    background-size: cover;
+    background-position:right;
+    border-radius: 9px;
+    margin: 20px 0px;
+    
+
+}
+#pro-area .area1{
+    background-image: url('cafe-plan/360_F_568266450_wwY8p50EyOHULpd68D0z0QvMyNOu7Xls.jpg');
+}
+#pro-area .area2{
+    background-image: url('cafe-plan/1.jpg');
+}
+
+/* signnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn */
+
+#pro-sign{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url('image/—Pngtree—luxury mandala design png vector_5829862.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   background-position: 20% 30%;
+   background-color: goldenrod;
+   height: 200px;
+   margin:50px;
+}
+#pro-sign h2{
+    color: rgb(232, 225, 225);
+}
+#pro-sign p{
+    color: rgb(232, 225, 225);
+}
+.form{
+    display: flex;
+    width: 400px;
+}
+.form button{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#pro-sign input 
+{
+  
+    height: 2.125rem;
+    padding: 0 1.25rem;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius:0px;
+
+}
+#pro-sign button {
+    height: 2.145rem;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(215, 183, 97);
+    color: rgb(110, 99, 81);
+    white-space: nowrap;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: oppx;
+    
+}
+#pro-sign button:hover{
+   color: rgb(17, 14, 6);
+}
+
+/* footerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+footer h3{
+    padding-bottom: 9px;
+    font-size: 20px;
+    
+}
+footer p{
+    font-size: 15px;
+    margin: 0px 0px 4px 0px;
+}
+footer a{
+    font-size: 15px;
+    margin: 0px 0px 4px 0px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;   
+}
+footer .follow{
+    margin-top: 20px;
+}
+footer .follow i{
+    padding-right: 6px;
+    
+}
+.install .app img{
+
+    border: 1px solid black;
+    border-radius: 6px;
+}
